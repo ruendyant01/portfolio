@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://i.imgur.com/b3AK4he.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <title>Ruendyant Mayraclle</title>
+    <script src="main.js"></script>
+  </head>
+  <body class="text-black font-mono h-full">
+    <nav class="flex justify-between py-2 px-6 text-white absolute top-0 left-0 w-full">
+      <h4 class="text-2xl">Ruendyant Mayraclle</h4>
+      <div class="flex space-x-4">
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <section class="h-[90vh] bg-black flex justify-center items-center text-transparent text-5xl text-center" style="-webkit-text-stroke: .7px white; -webkit-text-stroke-color: gainsboro;">
+        <h1>
+          Hello, I'm <span class="text-white" style="-webkit-text-stroke: 0 white;">Ruend</span>.
+          <p id="profession"></p>
+          Based on Jakarta
+        </h1>
+      </section>
+      <section class="py-[5%] px-[8%] flex text-black" id="about">
+        <div class="basis-1/2 self-center">
+          <p class="text-3xl">A Passionate programmer who expertise in creating a web app.I am a fast learner and have a high attention to details so can produce a work with precise and accurate.</p>
+          <br>
+          <br>
+          <p class="text-xl">Devoted to my work and can work both in team and individual at every environment.</p>
+        </div>
+        <div class="basis-1/2 p-20">
+          <img src="public/prfile.jpg" height="3264" width="2448"/>
+        </div>
+      </section>
+      <section class="py-[5%] px-[8%] flex text-white bg-black flex flex-col space-y-10">
+        <h3 class="text-3xl">Skills</h3>
+        <div class="flex space-x-6 items-center">
+          <abbr title="React Js"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="React Js" class="h-16"></abbr>
+          <abbr title="Vue Js"><img src="https://i.imgur.com/6Rzjhir.png" alt="Vue Js" class="h-12"></abbr>
+          <abbr title="PHP"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" alt="PHP" class="h-12"></abbr>
+          <abbr title="Laravel"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png" alt="Laravel" class="h-12"></abbr>
+          <abbr class="bg-white rounded-xl" title="Express Js"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express Js" class="h-12"></abbr>
+        </div>
+      </section>
+      <section class="py-[5%] px-[8%] flex text-black bg-white flex flex-col space-y-10">
+        <h3 class="text-3xl">Education</h3>
+        <div class="flex space-x-6">
+          <div class="border-r border-black pr-32 py-4">
+            <h4>Oct 2022 - Feb 2023</h4>
+          </div>
+          <div class="pl-8 text-black">
+            <div class="p-4 rounded-lg bg-blue-400">
+              <h5 class="font-bold">Full Stack Javascript Developer</h5>
+              <h6>Hacktiv8</h6>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-6">
+          <div class="border-r border-black pr-32 py-4">
+            <h4>Jul 2017 - Jul 2020</h4>
+          </div>
+          <div class="pl-8 text-black">
+            <div class="p-4 rounded-lg bg-green-400">
+              <h5 class="font-bold">Natural Sciences Major</h5>
+              <h6>SMA Budi Mulia</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-[5%] px-[8%] flex text-white bg-black flex flex-col space-y-10">
+        <h3 class="text-3xl">Experiences</h3>
+        <div class="flex space-x-8">
+          <div class="border-r border-white pr-32 py-4">
+            <h4>Jan 2021 - Sep 2022</h4>
+          </div>
+          <div class="pl-8 text-black">
+            <div class="p-7 rounded-lg bg-blue-400">
+              <h5 class="font-bold">Admin</h5>
+              <h6>Abadi Jaya</h6>
+              <ul class="list-disc">
+                <li>Processing customer order including handling chat help service</li>
+                <li>Resupply products.Supply inside the store itself and the online store</li>
+                <li>Manage online store products</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-8">
+          <div class="border-r border-white pr-32 py-4">
+            <h4>Mar 2023 - Aug 2023</h4>
+          </div>
+          <div class="pl-8 text-black">
+            <div class="p-7 rounded-lg bg-blue-400">
+              <h5 class="font-bold">Junior Programmer</h5>
+              <h6>Binus Creates</h6>
+              <ul class="list-disc">
+                <li>Creating a layout for SIMRS</li>
+                <li>Making a accounting functionality for money management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section id="project" class="py-[5%] px-[8%] flex text-black bg-white flex flex-col space-y-10">
+        <h3 class="text-3xl">Projects</h3>
+        <div class="flex flex-col">
+          <figure class="space-y-2 text-center">
+            <img src="https://camo.githubusercontent.com/dcf9d7854a1cb74387535bbffc1c340ea8bedf50ce4465441da2137f163d6423/68747470733a2f2f692e696d6775722e636f6d2f514d48575050552e706e67" class="" alt="">
+            <figcaption class="text-3xl font-semibold">Trimvi</figcaption>
+          </figure>
+          <figure class="space-y-2 text-center">
+            <div class="flex space-x-4  justify-center">
+              <img src="https://camo.githubusercontent.com/3e2c2c44b9847e60ad8244b158243a41d23e7696fd1998c95673c81fb05e2191/68747470733a2f2f692e696d6775722e636f6d2f3459686f6349772e6a706567" class="w-44" alt="">
+              <img src="https://camo.githubusercontent.com/b0a68f7a4a4fb78415ffd02e124c84c1f5b55a307388a16d4ce8e254229cbb90/68747470733a2f2f692e696d6775722e636f6d2f456a64324379382e6a706567" class="w-44" alt="">
+            </div>
+            <figcaption class="text-3xl font-semibold">Symovie</figcaption>
+          </figure>
+          <figure class="space-y-2 text-center">
+            <div class="flex space-x-4 justify-center">
+              <img src="https://i.imgur.com/70MRWlb.jpeg" class="w-44" alt="">
+              <img src="https://i.imgur.com/otEMNpB.jpeg" class="w-44" alt="">
+            </div>
+            <figcaption class="text-3xl font-semibold">Expense Tracker</figcaption>
+          </figure>
+
+        </div>
+      </section>
+      <section class="py-[5%] px-[8%] flex text-white bg-black justify-center items-center flex-col space-y-10">
+      <!-- <section id="contact" class="py-[5%] px-[8%] flex text-black bg-white justify-center items-center space-y-10 flex-col"> -->
+        <h3 class="text-2xl">Get In Touch?</h3>
+        <h1 class="text-5xl font-semibold">ruendyant.mayraclle@gmail.com</h1>
+        <div class="flex space-x-6 items-center bg-white px-4 py-1 rounded-xl">
+          <a href="https://www.linkedin.com/in/ruendyant01/">
+            <img class="h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAAAwMDCGhoYJCQmbm5v7+/s3NzfOzs4FBQX09PSKioq7u7u+vr65ublaWlrW1tZUVFRGRkbFxcUmJiZgYGBoaGhLS0tRUVHg4OA2Njatra1+fn7q6uotLS0aGhp1dXWRkZGnp6ciIiJ4eHgTExNsbGxkol5kAAAEV0lEQVR4nO2d6VarMBRG6QB4gQ50HsRavfX9H/HK7bLWkhMCBM4hfvuvoWavDITkJPE8AAAAAAAAAAAAAAAAAACAvhFN4jQcSiBM40lk3S/ZDWSxSKz6TYfcQgpeptb8ohm3DMHMUl2dj7lNSMZzG4JLbg0ty+aCc26HEhqXYiS3il4ZN22LUjuZb2bNBKfc+Teg2UvjhTv7BgybCCbcuTeiyehmy515I7b1BSPuvBtSvzudcGfdkEltw5g764bEtQ1T7qwbktY2DLmzbkhY21DiV6GK+m9EGA5Wu/VmvVt1YaGjLcPQ319fRNHeP3TkoqYdw8PPb88lZ0G2YugXEp+78inShuGTIjXfdEcLhntlcrYJD/uGqhLM4SpF64bFNvgF00DWtuGBfiDgmROwbaibojx27HbFsqF+mHvq2i7HsiHdCnNGXdvlWDZUvym+YOlO7RquSiZFOtcb2DbclTzTud7AtuG65BmOeQG7hpuSZzimWFGG1Qzdb4fu96Xuvw9LxjTPXdvlWDbUfFp8flxcurbLwbdFVcMV/UDEM+Nm/Rv/TD7A0grbmKeh6ilXXEMLc23qMJ2nLq3uaWO+VFWKfJEprcx5x49Dm4ipDea0s26xOt6nDI7OrVt8chp91dXliOVFf6PVFdJwK2ApHGvAMJQPDGEoHxjCUD4whKF8emJ4efaT+X4/Xx7Pm4qP2jcc/1Gj2EFEJX1IG75lP/5zdqyyhmXdcEQ+4BcEAyppcPfV9aqa98l84yrEakgm/Tb8oFZCjCcOZBu+UyFk/xMVfrB/hs8lWchM2qNkwyP59xvnXhvqauiN8p07cg0Nd7iWxq0KNTyYlWBOmaJQw/c384yUrIjINIz+VsmJfuVVpmFAjnaUvPbPsCKBbgjnhKG2KbphqKunjhhmzhtqwiBcMaQL0RVDb91jQ7OXIzkEF24YTV/T8LDd+PqgR09zkoxow/sQjm3ZUJyag5Ns+BCD86GvrW/9MyzssAkzXXLqK0quoWIL0VAXZJ0RQS1iDZVhYtpIeWLLuFRD4mwY3eQUcbShVENim9tF09sQnalQw4iKFNOcbEUMTYUakiMUzfFkRLELNSQ/FU50d9ovQ3Icrdmz0i/DBWlITxT3yjCgozbp4SkMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGv9GQvlCxSmwibUjHJhI39Vg3XMQjNXEx0pxI+Ql9X8sH+ftExGZPTuBpAAxhKB8Y0gg4QNeI+nfJun8fsPt3Ort/L7f7d6uzXN5UnW19QS/hzrwRSQNDj+dOymrUfxvm8N3oYE6jIvS8GXf+S9FsyDSCPKlBCpcGHekVtmuMDTE81U4H32XUJugunzJmLreiji2UYE4ktbuZNW6DNxLiuAZWXhq+Jh4diQMb2FjY9cuJJnEaDiUQpvHEXv0EAAAAAAAAAAAAAAAAAADoin/72XJ3ymh/WQAAAABJRU5ErkJggg==" alt="">
+          </a>
+          <a href="https://github.com/ruendyant01">
+            <img class="h-8" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+          </a>
+        </div>
+      </section>
+    </main>
+    <!-- <div id="app"></div> -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
